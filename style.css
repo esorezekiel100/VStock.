@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.product-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  gap: 40px;
+}
+
+.product-gallery img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 60px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.thumbnail.active {
+  border-color: purple;
+}
+
+.product-info {
+  max-width: 400px;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+}
+
+.size {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#add-to-bag {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs {
+  margin-top: 40px;
+}
+
+.tab {
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid purple;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.recommendations {
+  margin-top: 50px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
